@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net40;net20</TargetFrameworks>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>be.Core.pfx</AssemblyOriginatorKeyFile>
+		<DelaySign>false</DelaySign>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Gianluca Plevani, Brain Enterprise S.r.l.</Authors>
+		<Company>Brain Enterprise S.r.l.</Company>
+		<Product>Brain Enterprise - Core Libraries</Product>
+		<Description>
+			Accounting functions for Vat calculation and unboundling, VatCode and TaxCode check/calculation
+			The checks are currently implemented for the Italian VAT and Tax Code. For other countries (see CountryIsoCodes) there is only a RegEx check
+		</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>2021 - Brain Enterprise S.r.l.</Copyright>
+		<PackageIcon>brain_enterprise_logo_48x48.png</PackageIcon>
+		<PackageIconUrl />
+		<Version>3.0.2</Version>
+		<AssemblyVersion>3.0.2.0</AssemblyVersion>
+		<PackageProjectUrl>https://www.brain-enterprise.com/</PackageProjectUrl>
+		<PackageReleaseNotes>The check are currently implemented for the Italian VAT and Tax Code; contributions related to other countries are welcome</PackageReleaseNotes>
+		<PackageTags>margin, profit, gross pofit,  vat, vat number, vatcode, partita iva, iva, codice fiscale, fiscal code</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\RES\brain_enterprise_logo_48x48.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
