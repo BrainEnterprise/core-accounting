@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>be.Core.pfx</AssemblyOriginatorKeyFile>
+		<Authors>Gianluca Plevani, Brain Enterprise S.r.l.</Authors>
+		<Company>Brain Enterprise S.r.l.</Company>
+		<Product>Brain Enterprise - Core Libraries</Product>
+		<Description>This library contains some accounting classes and utilities to check Italian Municipalities, according with dataset published by Istat</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>2022 - Brain Enterprise S.r.l.</Copyright>
+		<PackageIcon>brain_enterprise_logo_48x48.png</PackageIcon>
+		<PackageIconUrl />
+		<Version>1.0.2</Version>
+		<AssemblyVersion>1.0.2.0</AssemblyVersion>
+		<PackageProjectUrl>https://www.brain-enterprise.com/</PackageProjectUrl>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageTags>comuni italiani, province italiane, regioni italiane, codice fiscale, fiscal code, italian municipalities, italian regions</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\RES\brain_enterprise_logo_48x48.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>

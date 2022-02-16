@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>be.Core.pfx</AssemblyOriginatorKeyFile>
+		<DelaySign>false</DelaySign>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Gianluca Plevani, Brain Enterprise S.r.l.</Authors>
+		<Company>Brain Enterprise S.r.l.</Company>
+		<Product>Brain Enterprise - Core Libraries</Product>
+		<Description>
+			This library contains a class to check Vat Identification Number using VIES Europe Service
+		</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>2021 - Brain Enterprise S.r.l.</Copyright>
+		<PackageIcon>brain_enterprise_logo_48x48.png</PackageIcon>
+		<PackageIconUrl />
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<PackageProjectUrl>https://www.brain-enterprise.com/</PackageProjectUrl>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageTags>vat, vat number, vat identitfication number, vatcode, partita iva, iva, vies, europe vies</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="3.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+		<PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+		<PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+		<PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+		<PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\RES\brain_enterprise_logo_48x48.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

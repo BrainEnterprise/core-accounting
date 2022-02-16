@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting", "BrainEnterprise.Core.Accounting\BrainEnterprise.Core.Accounting.csproj", "{D23B2678-E335-4749-B631-FC5DC562FFAE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Vies", "..\MAIN\BrainEnterprise.Core.Accounting.Vies\BrainEnterprise.Core.Accounting.Vies.csproj", "{4620FAB5-A853-441C-A21D-AAEF0279D9A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Ws", "..\MAIN\BrainEnterprise.Core.Accounting.Ws\BrainEnterprise.Core.Accounting.Ws.csproj", "{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,21 +19,19 @@ Global
 		{D23B2678-E335-4749-B631-FC5DC562FFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23B2678-E335-4749-B631-FC5DC562FFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23B2678-E335-4749-B631-FC5DC562FFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4620FAB5-A853-441C-A21D-AAEF0279D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4620FAB5-A853-441C-A21D-AAEF0279D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4620FAB5-A853-441C-A21D-AAEF0279D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4620FAB5-A853-441C-A21D-AAEF0279D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A396112E-3EE6-44AF-9B33-0A39963C3F13}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.12.205/brain%20enterprise
-		SccProjectUniqueName0 = BrainEnterprise.Core.Accounting\\BrainEnterprise.Core.Accounting.csproj
-		SccProjectName0 = BrainEnterprise.Core.Accounting
-		SccAuxPath0 = http://192.168.12.205/brain%20enterprise
-		SccLocalPath0 = BrainEnterprise.Core.Accounting
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
