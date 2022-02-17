@@ -10,7 +10,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
 		<SignAssembly>true</SignAssembly>
-		<AssemblyOriginatorKeyFile>be.Core.pfx</AssemblyOriginatorKeyFile>
+		<AssemblyOriginatorKeyFile>..\PFX\be.Core.pfx</AssemblyOriginatorKeyFile>
 		<Authors>Gianluca Plevani, Brain Enterprise S.r.l.</Authors>
 		<Company>Brain Enterprise S.r.l.</Company>
 		<Product>Brain Enterprise - Core Libraries</Product>
@@ -42,9 +42,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\RES\brain_enterprise_logo_48x48.png">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
+		<None Include="..\PFX\brain_enterprise_logo_48x48.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
 		</None>
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>

@@ -10,7 +10,7 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<SignAssembly>true</SignAssembly>
-		<AssemblyOriginatorKeyFile>be.Core.pfx</AssemblyOriginatorKeyFile>
+		<AssemblyOriginatorKeyFile>..\PFX\be.Core.pfx</AssemblyOriginatorKeyFile>
 		<DelaySign>false</DelaySign>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Gianluca Plevani, Brain Enterprise S.r.l.</Authors>
@@ -61,9 +61,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\RES\brain_enterprise_logo_48x48.png">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
+		<None Include="..\PFX\brain_enterprise_logo_48x48.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
 		</None>
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
