@@ -24,9 +24,9 @@
 		<Copyright>2021 - Brain Enterprise S.r.l.</Copyright>
 		<PackageIcon>brain_enterprise_logo_48x48.png</PackageIcon>
 		<PackageIconUrl />
-		<Version>3.0.2</Version>
-		<AssemblyVersion>3.0.2.0</AssemblyVersion>
-		<PackageProjectUrl>https://www.brain-enterprise.com/</PackageProjectUrl>
+		<Version>3.0.3</Version>
+		<AssemblyVersion>3.0.3.0</AssemblyVersion>
+		<PackageProjectUrl>https://github.com/BrainEnterprise/core-accounting</PackageProjectUrl>
 		<PackageReleaseNotes>The check are currently implemented for the Italian VAT and Tax Code; contributions related to other countries are welcome</PackageReleaseNotes>
 		<PackageTags>margin, profit, gross pofit,  vat, vat number, vatcode, partita iva, iva, codice fiscale, fiscal code</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>

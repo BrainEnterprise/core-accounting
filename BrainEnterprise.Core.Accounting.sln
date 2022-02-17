@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting", "BrainEnterprise.Core.Accounting\BrainEnterprise.Core.Accounting.csproj", "{D23B2678-E335-4749-B631-FC5DC562FFAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Vies", "..\MAIN\BrainEnterprise.Core.Accounting.Vies\BrainEnterprise.Core.Accounting.Vies.csproj", "{4620FAB5-A853-441C-A21D-AAEF0279D9A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Vies", "BrainEnterprise.Core.Accounting.Vies\BrainEnterprise.Core.Accounting.Vies.csproj", "{4620FAB5-A853-441C-A21D-AAEF0279D9A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Ws", "..\MAIN\BrainEnterprise.Core.Accounting.Ws\BrainEnterprise.Core.Accounting.Ws.csproj", "{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainEnterprise.Core.Accounting.Ws", "BrainEnterprise.Core.Accounting.Ws\BrainEnterprise.Core.Accounting.Ws.csproj", "{AFAA5527-E484-4F3C-B2EF-42A8B1448A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

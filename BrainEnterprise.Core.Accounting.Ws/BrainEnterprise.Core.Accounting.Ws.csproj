@@ -19,9 +19,9 @@
 		<Copyright>2022 - Brain Enterprise S.r.l.</Copyright>
 		<PackageIcon>brain_enterprise_logo_48x48.png</PackageIcon>
 		<PackageIconUrl />
-		<Version>1.0.2</Version>
-		<AssemblyVersion>1.0.2.0</AssemblyVersion>
-		<PackageProjectUrl>https://www.brain-enterprise.com/</PackageProjectUrl>
+		<Version>1.0.3</Version>
+		<AssemblyVersion>1.0.3.0</AssemblyVersion>
+		<PackageProjectUrl>https://github.com/BrainEnterprise/core-accounting</PackageProjectUrl>
 		<PackageReleaseNotes></PackageReleaseNotes>
 		<PackageTags>comuni italiani, province italiane, regioni italiane, codice fiscale, fiscal code, italian municipalities, italian regions</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
