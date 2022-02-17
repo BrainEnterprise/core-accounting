@@ -1,0 +1,23 @@
+Codice Regione;Codice Ripartizione Geografica;Ripartizione geografica;Denominazione Regione;Codice NUTS1 2010;Codice NUTS2 2010 (3) 
+1;1;Nord-ovest;Piemonte;ITC;ITC1
+2;1;Nord-ovest;Valle d'Aosta/Vallée d'Aoste;ITC;ITC2
+3;1;Nord-ovest;Lombardia;ITC;ITC4
+4;2;Nord-est;Trentino-Alto Adige/Südtirol;ITH;ITH1
+4;2;Nord-est;Trentino-Alto Adige/Südtirol;ITH;ITH2
+5;2;Nord-est;Veneto;ITH;ITH3
+6;2;Nord-est;Friuli-Venezia Giulia;ITH;ITH4
+7;1;Nord-ovest;Liguria;ITC;ITC3
+8;2;Nord-est;Emilia-Romagna;ITH;ITH5
+8;2;Nord-est;Emilia-Romagna;ITI;ITI3
+9;3;Centro;Toscana;ITI;ITI1
+10;3;Centro;Umbria;ITI;ITI2
+11;3;Centro;Marche;ITI;ITI3
+12;3;Centro;Lazio;ITI;ITI4
+13;4;Sud;Abruzzo;ITF;ITF1
+14;4;Sud;Molise;ITF;ITF2
+15;4;Sud;Campania;ITF;ITF3
+16;4;Sud;Puglia;ITF;ITF4
+17;4;Sud;Basilicata;ITF;ITF5
+18;4;Sud;Calabria;ITF;ITF6
+19;5;Isole;Sicilia;ITG;ITG1
+20;5;Isole;Sardegna;ITG;ITG2
