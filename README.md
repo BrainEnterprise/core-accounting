@@ -48,9 +48,3 @@ var mantova = client.GetMunicipality("E897");
 client.ClearCache();
 
 ````
-
-With the Last Update (1.0.5) you can use your own address
-
-````C#
-var client = new MunicipalityServiceClient("https://personalAddress.com");
-````
