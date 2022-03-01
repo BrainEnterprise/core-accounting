@@ -143,6 +143,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
                 //...
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -182,6 +183,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -223,6 +225,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -267,6 +270,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -306,6 +310,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
