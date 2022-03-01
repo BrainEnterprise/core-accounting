@@ -28,6 +28,12 @@ var provinces = client.GetProvinces();
 var piemonte = client.GetProvinces(regionFilter:"01");
 ````
 
+With the Last Update (1.0.5) you can use your own address
+
+````C#
+var client = new MunicipalityServiceClient("https://personalAddress.com");
+````
+
 ## Caching
 
 All the requests are autamatically cached in a static variables inside the class.
