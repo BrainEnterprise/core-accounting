@@ -24,6 +24,15 @@ namespace BrainEnterprise.Core.Accounting.Ws
         public MunicipalityServiceClient()
         {
         }
+        
+        /// <summary>
+        /// Costruttore Standard della Classe
+        /// </summary>
+        /// <param name="serviceAddress">Indirizzo personale da chiamare</param>
+        public MunicipalityServiceClient(string serviceAddress)
+        {
+            _baseServiceAddress = serviceAddress;
+        }
 
         /// <summary>
         /// Indica se utilizzare la cache delle Richieste
