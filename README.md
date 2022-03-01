@@ -28,6 +28,20 @@ var provinces = client.GetProvinces();
 var piemonte = client.GetProvinces(regionFilter:"01");
 ````
 
+## Caching
+
+All the requests are autamatically cached in a static variables inside the class.
+You can enable or disable the caching using a static property UseCache
+
+````C#
+MunicipalityServiceClient.UseCache = true;
+
+var client = new MunicipalityServiceClient();
+var mantova = client.GetMunicipality("E897");
+
+client.ClearCache();
+
+````
 
 With the Last Update (1.0.5) you can use your own address
 
