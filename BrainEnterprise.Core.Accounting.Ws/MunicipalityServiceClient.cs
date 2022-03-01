@@ -24,6 +24,15 @@ namespace BrainEnterprise.Core.Accounting.Ws
         public MunicipalityServiceClient()
         {
         }
+        
+        /// <summary>
+        /// Costruttore Standard della Classe
+        /// </summary>
+        /// <param name="serviceAddress">Indirizzo personale da chiamare</param>
+        public MunicipalityServiceClient(string serviceAddress)
+        {
+            _baseServiceAddress = serviceAddress;
+        }
 
         /// <summary>
         /// Indica se utilizzare la cache delle Richieste
@@ -134,6 +143,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
                 //...
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -173,6 +183,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -214,6 +225,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -258,6 +270,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
@@ -297,6 +310,7 @@ namespace BrainEnterprise.Core.Accounting.Ws
             {
                 HttpWebRequest request = WebRequest.Create(serviceAddress) as HttpWebRequest;
                 request.Method = "POST";
+                request.ContentLength = 0;
 
                 using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
                 {
